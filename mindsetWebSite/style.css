@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+
   font-family: Arial, sans-serif;
 }
 
@@ -9,25 +10,30 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
   padding: 20px;
+
   background: #ffffff;
 }
+
 #logo {
   font-weight: bold;
   font-size: 22px;
-  color: #111;
+  color: #111111;
 }
 
 #navLinks {
   display: flex;
   flex-direction: row;
+
   gap: 25px;
+
   list-style: none;
 }
 
 #navLinks > li > a {
   text-decoration: none;
-  color: #333;
+  color: #333333;
   font-weight: 500;
 }
 
@@ -36,8 +42,10 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
   gap: 40px;
   padding: 60px;
+
   background: #ffffff;
 }
 
@@ -48,47 +56,52 @@ body {
 .heroText > h1 {
   font-size: 40px;
   font-weight: 700;
-  color: #111;
+  color: #111111;
 }
 
 .heroText > p {
-  margin: 20px 0;
-  color: #555;
+  margin: 20px ;
+
+  color: #555555;
   font-size: 17px;
 }
 
 .heroButtons {
   display: flex;
   flex-direction: row;
+
   gap: 15px;
   margin-top: 15px;
 }
 
 #btnPrimary {
-  background-color: #20c997;
-  border: none;
   padding: 14px;
-  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  color: #ffffff;
   font-size: 15px;
   font-weight: 600;
-  border-radius: 8px;
   cursor: pointer;
+  background-color: #20c997;
 }
+
 #btnSecondary {
-  background: none;
-  border: 2px solid #20c997;
   padding: 12px;
+
+  border: 2px solid #20c997;
   border-radius: 8px;
+
   font-size: 15px;
   font-weight: 600;
   color: #20c997;
   cursor: pointer;
+  background: none;
 }
 
 .heroImage {
   flex: 1;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   width: 100%;
 }
@@ -98,16 +111,15 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
   gap: 40px;
   padding: 60px;
+
   background: #ffffff;
 }
 
 #aboutImg {
   flex: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   width: 280px;
 }
 
@@ -117,42 +129,49 @@ body {
 
 #aboutText > h2 {
   margin-bottom: 20px;
+
   font-size: 30px;
   font-weight: 700;
-  color: #111;
+  color: #111111;
   text-align: center;
 }
 
-.aboutText > p {
+#aboutText > p {
   font-size: 16px;
-  color: #555;
+  color: #555555;
 }
 
 .benefits {
-  background: #ffffff;
   padding: 60px;
   text-align: center;
+
+  background: #ffffff;
 }
 
 .benefits > h2 {
+  margin-bottom: 50px;
+
   font-size: 30px;
   font-weight: 700;
-  margin-bottom: 50px;
-  color: #111;
+  color: #111111;
 }
 
 .benefitList {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
   gap: 20px;
 }
 
 #benefitItem {
   flex: 1;
-  background: white;
-  padding: 30px;
+
   border-radius: 12px;
+  
+  background: #ffffff;
+  padding: 30px;
+  
 }
 
 #benefitItem > img {
@@ -162,12 +181,13 @@ body {
 
 #benefitItem > h3 {
   margin-bottom: 12px;
+
   font-size: 18px;
   font-weight: 600;
-  color: #111;
+  color: #111111;
 }
 
 #benefitItem > p {
-  color: #555;
+  color: #555555;
   font-size: 15px;
 }
