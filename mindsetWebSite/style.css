@@ -12,21 +12,20 @@ body {
   padding: 20px;
   background: #ffffff;
 }
-
-.logo {
+#logo {
   font-weight: bold;
   font-size: 22px;
   color: #111;
 }
 
-.navLinks {
+#navLinks {
   display: flex;
   flex-direction: row;
   gap: 25px;
   list-style: none;
 }
 
-.navLinks > li > a {
+#navLinks > li > a {
   text-decoration: none;
   color: #333;
   font-weight: 500;
@@ -65,7 +64,7 @@ body {
   margin-top: 15px;
 }
 
-.heroButtons > .btnPrimary {
+#btnPrimary {
   background-color: #20c997;
   border: none;
   padding: 14px;
@@ -75,8 +74,7 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
-
-.heroButtons > .btnSecondary {
+#btnSecondary {
   background: none;
   border: 2px solid #20c997;
   padding: 12px;
@@ -92,9 +90,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.heroImage > img {
   width: 100%;
 }
 
@@ -108,22 +103,19 @@ body {
   background: #ffffff;
 }
 
-.aboutImg {
+#aboutImg {
   flex: 1;
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.aboutImg > img {
   width: 280px;
 }
 
-.aboutText {
+#aboutText {
   flex: 1;
 }
 
-.aboutText > h2 {
+#aboutText > h2 {
   margin-bottom: 20px;
   font-size: 30px;
   font-weight: 700;
@@ -156,26 +148,26 @@ body {
   gap: 20px;
 }
 
-.benefitList > .benefitItem {
+#benefitItem {
   flex: 1;
   background: white;
   padding: 30px;
   border-radius: 12px;
 }
 
-.benefitList > .benefitItem > img {
+#benefitItem > img {
   width: 55px;
   margin-bottom: 15px;
 }
 
-.benefitList > .benefitItem > h3 {
+#benefitItem > h3 {
   margin-bottom: 12px;
   font-size: 18px;
   font-weight: 600;
   color: #111;
 }
 
-.benefitList > .benefitItem > p {
+#benefitItem > p {
   color: #555;
   font-size: 15px;
 }
